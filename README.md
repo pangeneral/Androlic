@@ -11,6 +11,7 @@ If we take Androlic as a command line tool, we can use it through following comm
 The command line options of Androlic are shown as following:
     
     -apkName	    The name of apk under analysis. For example, douyin.apk.
+    -javaHome       The directory where rt.jar lies. For example, C:\\java\\lib\\rt.jar.
     -apkBasePath	    The directory where apk file lies. For example, D:\\test.
     -outputBasePath     The directory where the output file of Androlic lies. 
     -androidPath	    The directory where android.jar lies. 
@@ -23,7 +24,7 @@ The command line options of Androlic are shown as following:
     -initMethodSubsignature       If entry method is a non-static method, we need to indicate the init method of object that entry method belongs to. Non-parametric init method by default. The format should be subsignature in jimple. For example, void <init>(int).
     -configureFile      The path of configure file. For example, D:\\configuration.txt
 
-Note that -apkName, -apkBasePath, -outputBasePath and -androidPath are compulsory options, which means they must be set. For example:
+Note that -apkName, -javaHome, -apkBasePath, -outputBasePath and -androidPath are compulsory options, which means they must be set. For example:
 
     java -jar androlic.jar –apkName douyin.apk –apkBasePath D:\\test –outputBasePath D:\\apkPath –androidPath D:\\android-platform
     
