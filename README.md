@@ -26,7 +26,7 @@ The command line options of Androlic are shown as following:
 
 Note that -apkName, -javaHome, -apkBasePath, -outputBasePath and -androidPath are compulsory options, which means they must be set. For example:
 
-    java -jar androlic.jar –apkName douyin.apk –apkBasePath D:\\test –outputBasePath D:\\apkPath –androidPath D:\\android-platform
+    java -jar androlic.jar –apkName douyin.apk -javaHome C:\\Program Files\\Java\\rt.jar –apkBasePath D:\\test –outputBasePath D:\\apkPath –androidPath D:\\android-platform
     
 If we set -configureFile, then the configuration item in the configure file will cover the configure item set in command line. An example  of configure file is shown as following:
     
