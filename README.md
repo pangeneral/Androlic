@@ -14,7 +14,8 @@ The command line options of Androlic are shown as following:
     -javaHome       The directory where rt.jar lies. For example, C:\\java\\lib\\rt.jar.
     -apkBasePath	    The directory where apk file lies. For example, D:\\test.
     -outputBasePath     The directory where the output file of Androlic lies. 
-    -androidPath	    The directory where android.jar lies. 
+    -androidPath	    The directory where android.jar lies.
+    -debugMode          Indicate whether Androlic is in debug mode. Debug mode will output detailed path message which is time consuming. 1 means yes, 0 means no. 0 by default.
     -isJimpleOutput	    Indicate whether Androlic output jimple file or not. 1 means yes, 0 means no. 1 by default.
     -maxRunningTime	    The maximum running time of Androlic. 1800000 milliseconds (30 minutes) by default.
     -maxLoopUnrollNumber      The maximum unroll time when dealing with loop structure. 1 by default.
