@@ -86,8 +86,10 @@ Androlic provides several APIs through which developer can carry out custom anal
           ContextMessage context, GlobalMessage globalMessage);
     ```
 5. androlic.execution.processor.interprocedure.IMethodInterProceduralJudge provides a method to deal with inter-procedural analysis: 
+    ```
     // Return true if the InvokeExpr ie needs to be unfolded to perform inter-procedural analysis. Otherwise, return false
-	public boolean isNeedInterProceduralAnalysis(InvokeExpr ie, ContextMessage context, GlobalMessage globalMessage);
+    public boolean isNeedInterProceduralAnalysis(InvokeExpr ie, ContextMessage context, GlobalMessage globalMessage);
+    ```
 
 
 
