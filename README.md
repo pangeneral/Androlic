@@ -48,7 +48,7 @@ Each line in the file denotes a configuration. Configuration item and its value 
 
 We can make configuration in file through the following command:
 
-    java -jar androlic.jar –configureFile D:\\configuration.txt
+    java -jar androlic.jar -configureFile D:\\configuration.txt
 
 ## Extend Androlic
 
